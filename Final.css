@@ -1,0 +1,272 @@
+body{
+    margin: 0px;
+}
+
+/*Welcome Message CSS for main page*/
+.welcomeMsg{
+    text-align: center;
+    font-family: Arial;
+    font-size: 32px;
+    padding: 25px;
+}
+
+.welcomeCap{
+    font-size: 24px;
+    font-family: Arial;
+}
+
+.navtoArtist{
+    border: solid 2px #333;
+    position: relative;
+    margin: auto;
+    float: auto;
+    text-align: center;
+    width: 400px;
+    height: 600px;
+    background-image: url(PinkHouse.jpg);
+    background-size: cover;
+    border-radius: 35px;
+}
+
+/*Artist name Container*/
+.centerArtistName{
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%,-50%);
+    vertical-align: middle;
+    background-color: #333;
+    font-family: Arial;
+    color: #f2f2f2;
+    font-size: 30px;
+    border-radius: 15px;
+}
+
+img{
+    height: 600px;
+    width: auto;
+}
+
+.bioTxt{
+    margin: auto;
+    width: 60%;
+    text-align: center;
+    font-family: Arial;
+    font-size: 24px;
+    padding-bottom: 10%;
+
+}
+
+.video{
+    padding-bottom: 10%;
+    margin-left: 36%;
+}
+
+.imgTxt{
+    padding-left: 10%;
+    float: left;
+    margin-left: 10px;
+    font-family: Arial;
+    font-style: italic;
+}
+
+.imgTxt2{
+    padding-left: 69%;
+    float: left;
+    font-family: Arial;
+    font-style: italic;
+}
+
+.imgBox{
+    float: left;
+    padding-left: 10%;
+    margin: auto;
+}
+
+.imgBox2{
+    padding-left: 70%;
+    margin: auto;
+}
+
+.conDiv{
+    overflow: hidden;
+    margin: auto;
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%,-50%);
+    padding-bottom: 20%;
+    padding-top: 25%;
+}
+
+.artistTitle{
+    font-family: Arial;
+    text-align: center;
+    font-size: 32px;
+    width: 200px;
+    margin: auto;
+    
+
+}
+
+.abtTitle{
+    font-family: Arial;
+    text-align: center;
+    font-size: 32px;
+    width: 200px;
+    margin: 10px;
+    float: left;
+}
+
+.abtBody{
+    font-family: Arial;
+    font-size: 24px;
+    width: 600px;
+    text-align: center;
+    margin: 10px;
+    float: left;
+}
+
+.how2Sub{
+    font-family: Arial;
+    text-align: center;
+    font-size: 32px;
+    width: 200px;
+    margin: 10px;
+    float: left;
+}
+
+.how2SubBody{
+    font-family: Arial;
+    font-size: 24px;
+    width: 600px;
+    text-align: center;
+    margin: 10px;
+    float: left;
+}
+
+.how2SubBody a{
+    color:black;
+}
+
+
+.ways2Sup{
+    font-family: Arial;
+    text-align: center;
+    font-size: 32px;
+    width: 200px;
+    margin: 10px;
+    float: left;
+}
+
+.ways2SupBody{
+    font-family: Arial;
+    font-size: 24px;
+    width: 600px;
+    text-align: center;
+    margin: 10px;
+    float: left;
+}
+
+.costBreak{
+    font-family: Arial;
+    text-align: center;
+    font-size: 32px;
+    width: 200px;
+    margin: 10px;
+    float: left;
+}
+
+table.center{
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.costBreakBody{
+    font-family: Arial;
+    font-size: 24px;
+    width: 600px;
+    text-align: center;
+    margin: 10px;
+    float: left;
+}
+
+.centerArtistName a {
+    padding: 6px;
+    background-color: #333;
+    border-radius: 15px;
+    text-decoration: none;
+    color: #f2f2f2;
+    font-family: Arial;
+}
+
+.centerArtistName a:hover{
+    background-color: #ddd;
+    color: black;
+}
+
+
+/* Main title on nav bar*/
+.title{
+    font-family: Arial;
+    padding-left: 10px;
+    float: left;
+    text-align: center;
+    color: #f2f2f2;
+    font-size: 24px;
+}
+
+/* Nav bar*/
+
+.topnav {
+    margin: auto;
+    background-color: #333;
+    overflow: hidden;
+}
+  
+
+.topnav a {
+    font-family: Arial;
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 24px 24px;
+    text-decoration: none;
+    font-size: 24px;
+}
+  
+/* Changes the color of links upon hovering over */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+
+/* footer styling*/
+.footer {
+    margin-top: auto;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-family: Arial;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    text-align: center;
+}
+
+
+.footer a{
+    font-family: Arial;
+    color: #f2f2f2;
+    text-decoration: none;
+    padding: 12px 12px;
+}  
+
+/* Changes the color of the link in the footer upon hovering over */
+.footer a:hover{
+    background-color: #ddd;
+    color: black;
+}
+  
+  
